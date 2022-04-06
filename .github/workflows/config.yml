@@ -35,7 +35,7 @@ jobs:
           
       # 
       - name: step 3 run maven
-        run: mvn -B package --file pom.xml
+        run: mvn -B package --file app/pom.xml
         
       - name: step 4 show resultat
         run: ls -a
