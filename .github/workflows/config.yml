@@ -41,7 +41,7 @@ jobs:
         run: ls -a
         
       - name: step 5 run test
-        run: mvn app/src/test
+        run: mvn /DataFrames/app/src/test
         
           echo Add other actions to build,
           echo test, and deploy your project.
