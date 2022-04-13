@@ -58,7 +58,7 @@ jobs:
           
       - name: docker build image
         run: |
-          docker build -t image-dataframe .
+          docker build -t 19982001/dataframe_2022 .
       - name: docker push
         run: |
-          docker push image-dataframe
+          docker push 19982001/dataframe_2022
