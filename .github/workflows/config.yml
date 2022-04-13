@@ -58,7 +58,7 @@ jobs:
           
       - name: docker build image
         run: |
-          docker build -t image-dataframe
+          docker build -t image-dataframe .
       - name: docker push
         run: |
           docker push image-dataframe
